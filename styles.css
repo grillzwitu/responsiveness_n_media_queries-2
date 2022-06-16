@@ -360,6 +360,14 @@ footer {
         flex-direction: column;
         gap: 10px;
     }
+
+    .social-links {
+        align-self: center;
+    }
+
+    .copyright {
+        align-self: center;
+    }
 }
 
 @media (max-width: 405px){
@@ -385,6 +393,19 @@ footer {
         font-weight: 600;
         font-size: 15px;
     }
+
+    .copyright {
+        font-size: 0.6em;
+    }
+
+    .white-logo {
+        width: 38%;
+    }
+
+    .rest-of-footer {
+        font-size: 0.7em;
+    }
+    
 }
 
 @media (max-width: 320px){
