@@ -1,6 +1,6 @@
 # responsiveness_media_queries-2
 
-This project illustrates the concept of responsive webpages and the use of media queries in CSS, to view the webpage click [here]().
+This project illustrates the concept of responsive webpages and the use of media queries in CSS, to view the webpage click [here](https://grillzwitu.github.io/responsiveness_n_media_queries-2/).
 
 ## Views
 
