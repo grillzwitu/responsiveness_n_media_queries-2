@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    background-image: url(./assets/images/bg-hero-desktop.svg);
+    background-color: hsl(193, 100%, 96%);
+    padding: 20px 50px;
+    margin: 0 0 100px 0;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 50px 0;
+}
+
+.try-free-btn {
+    font-size: 0.7em;
+    background-color: white;
+    border-color: white;
+    border-radius: 20px;
+    padding: 10px 70px;
+    font-family: poppins, serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.try-free-btn:active {
+    color: hsl(208, 11%, 55%);
+}
+
+.hero-container {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-info {
+    width: 40%;
+}
+
+.hero-info h1 {
+    font-family: 'open sans', serif;
+    font-weight: 700;
+    margin: 0 0 25px 0;
+}
+
+.hero-info p {
+    font-family: 'open sans', serif;
+    font-weight: 400;
+}
+
+.get-started-btn {
+    font-size: 0.8em;
+    background-color: hsl(322, 100%, 66%);
+    border-color: hsl(322, 100%, 66%);
+    border-radius: 30px;
+    padding: 12px 70px;
+    font-family: poppins, serif;
+    font-weight: 600;
+    color: white;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+}
+
+.get-started-btn:active {
+    background-color: hsl(322, 63%, 69%);
+    border-color: hsl(322, 63%, 69%);
+}
+
+.hero-image {
+    width: 45%;
+}
+
+main{
+    width: 90%;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    border-color: white;
+    padding: 40px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0 0 50px 0;
+}
+
+section .detail {
+    width: 43%;
+    margin: 0 0 0 90px;
+}
+
+.detail h2 {
+    font-family: 'open sans';
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.detail p {
+    font-family: "open sans", serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    color: hsl(208, 11%, 55%);
+}
+
+section img {
+    width: 40%;
+}
+
+img[src="./assets/images/illustration-flowing-conversation.svg"] {
+    margin-left: 90px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    background-color: hsl(192, 100%, 9%);
+    flex-direction: column;
+    padding: 0 50px;
+}
+
+.reminder-card {
+    text-align: center;
+    border-radius: 10px;
+    border-color: white;
+    padding: 40px 30px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 35%;
+    background-color: white;
+    z-index: 1;
+    transform: translate(0, 60px);
+}
+
+.reminder-card p {
+    font-family: poppins, serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.smaller-btn {
+    font-size: 0.6em;
+}
+
+.rest-of-footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: hsl(208, 11%, 55%);
+    font-family: 'open sans', serif;
+    font-weight: 400;
+    font-size: 0.8em;
+}
+
+.white-logo {
+    filter: invert(2) grayscale(100%);
+    margin: 100px 0 50px 0;
+    width: 22%;
+}
+
+.footer-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 15px 0;
+}
+
+.contact-detail {
+    display: flex;
+    margin: 0 0 25px 0;
+    justify-content: flex-start;
+    align-items: flex-start;
+    text-align: left;
+}
+
+.icon-container {
+    margin-right: 20px;
+}
+
+.contact-detail p {
+    width: 300px;
+}
+
+.ext-links {
+    display: flex;
+    gap: 150px;
+    transform: translate(-105px, 0);
+}
+
+.ext-links ul {
+    list-style: none;
+}
+
+.ext-links ul li {
+    margin: 0 0 15px 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+    transform: translate(-167px, 0);
+}
+
+.fa-brands {
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.fa-brands:active {
+    color: hsl(322, 63%, 66%);
+}
+
+.copyright {
+    color: hsl(208, 11%, 55%);
+    font-family: 'open sans', serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    margin: 0 0 30px 0;
+    align-self: flex-end;
+}
+
+@media (max-width: 1000px) {
+
+    .ext-links {
+        gap: 50px;
+    }
+
+    .social-links {
+        transform: translate(-150px, 0);
+    }
+}
+
+@media (max-width: 980px) {
+    .footer-details {
+        justify-content: center;
+        gap: 100px;
+        flex-wrap: wrap;
+    }
+
+    .social-links {
+        transform: translate(0, 0);
+    }
+
+    .ext-links {
+        transform: translate(0,0);
+        gap: 80px;
+    }
+
+    .reminder-card {
+        width: 400px;
+        padding: 20px 15px;
+    }
+
+    img[src="./assets/images/illustration-flowing-conversation.svg"] {
+        margin-left: 0px;
+    }
+
+    section .detail {
+        margin: 0 0 0 0px;
+    }
+}
+
+@media (max-width: 969px){
+
+    .footer-details {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    .contact-detail p {
+        width: 60%;
+    } 
+
+    .ext-links {
+        gap: 90px;
+    }
+
+    .copyright {
+        align-self: start;
+    }
+}
+
+@media (max-width: 875px) {
+    .get-started-btn {
+        font-size: 0.6em;
+        padding: 8px 50px;
+    }
+
+    .try-free-btn {
+        font-size: 0.7em;
+        padding: 8px 50px;
+    }
+}
+
+@media (max-width: 750px) {
+
+    header {
+        padding: 20px;
+    }
+
+    .logo {
+        width: 30%;
+    }
+
+    .try-free-btn {
+        font-size: 0.5em;
+        padding: 5px 30px;
+    }
+
+    .hero-container {
+        flex-direction: column;
+    }
+
+    .hero-info {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+    section {
+        flex-direction: column;
+    }
+    .reversed-section {
+        flex-direction: column-reverse;
+    }
+
+    section .detail, section img {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 650px){
+    .ext-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 405px){
+
+    .hero-info h1 {
+        font-size: 1.5em;
+    }
+
+    .hero-info p {
+        font-size: 0.9em;
+    }
+
+    .reminder-card {
+        width: 90%;
+    }
+
+    footer {
+        padding: 0 20px;
+    }
+
+    .reminder-card p {
+        font-family: poppins, serif;
+        font-weight: 600;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 320px){
+
+    .reminder-card p {
+        font-size: 12px;
+    }
+}
+
