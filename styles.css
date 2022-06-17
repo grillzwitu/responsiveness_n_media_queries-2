@@ -124,6 +124,11 @@ section .detail {
 
 section img {
     width: 40%;
+    transition: 300ms;
+}
+
+section img:hover {
+    transform: rotateY(180deg);
 }
 
 img[src="./assets/images/illustration-flowing-conversation.svg"] {
@@ -221,6 +226,11 @@ footer {
 .fa-brands {
     font-size: 2em;
     cursor: pointer;
+    transition: 300ms;
+}
+
+.fa-brands:hover {
+    font-size: 2.3em;
 }
 
 .fa-brands:active {
