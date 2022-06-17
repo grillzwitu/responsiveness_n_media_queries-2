@@ -318,6 +318,14 @@ footer {
         font-size: 0.7em;
         padding: 8px 50px;
     }
+
+    .social-links {
+        align-self: center;
+    }
+
+    .copyright {
+        align-self: center;
+    }
 }
 
 @media (max-width: 750px) {
@@ -371,13 +379,6 @@ footer {
         gap: 10px;
     }
 
-    .social-links {
-        align-self: center;
-    }
-
-    .copyright {
-        align-self: center;
-    }
 }
 
 @media (max-width: 405px){
