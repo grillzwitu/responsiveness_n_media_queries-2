@@ -32,7 +32,7 @@ nav {
     background-color: white;
     border-color: white;
     border-radius: 20px;
-    padding: 10px 70px;
+    padding: 8px 70px;
     font-family: poppins, serif;
     font-weight: 600;
     cursor: pointer;
@@ -84,7 +84,7 @@ nav {
 }
 
 .hero-image {
-    width: 45%;
+    width: 43%;
 }
 
 main{
@@ -221,12 +221,15 @@ footer {
     display: flex;
     gap: 20px;
     transform: translate(-167px, 0);
+    overflow: hidden;
 }
 
 .fa-brands {
     font-size: 2em;
     cursor: pointer;
     transition: 300ms;
+    overflow: none;
+    height: 17%;
 }
 
 .fa-brands:hover {
@@ -392,7 +395,7 @@ footer {
     }
 
     .reminder-card {
-        width: 90%;
+        width: 88%;
     }
 
     footer {
