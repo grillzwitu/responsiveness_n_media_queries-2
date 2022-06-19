@@ -357,10 +357,10 @@ footer {
     }
 
     section {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
     .reversed-section {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     section .detail, section img {
@@ -410,7 +410,7 @@ footer {
     }
 
     .white-logo {
-        width: 38%;
+        width: 39%;
     }
 
     .rest-of-footer {
